@@ -1,0 +1,48 @@
+/* odin recipes stylesheet */
+
+body {
+  background-color: #00004d;
+  color: #ffb000;
+}
+
+h1 {
+  font-size: 55px;
+  color: #00004d
+}
+
+h2 { 
+  font-size: 33px;
+  color: #00004d;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+header {
+  text-align: center;
+  background-image: url(../images/folk.png);
+  background-size: contain;
+}
+
+section {
+  text-align: center;
+}
+
+.home {
+  text-align: center;
+}
+
+.ingredients {
+  text-align: justify;
+}
+
+.directions {
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  background-image: url(../images/folk.png);
+  color: #00004d;
+}
