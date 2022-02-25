@@ -5,6 +5,10 @@ body {
   color: #ffb000;
 }
 
+a:hover {
+  color: #ffb000;
+}
+
 h1 {
   font-size: 55px;
   color: #00004d
@@ -31,14 +35,20 @@ section {
 
 .home {
   text-align: center;
+  
 }
 
 .ingredients {
   text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .directions {
   text-align: justify;
+  padding-left: 100px;
+  padding-bottom: 10px;
+  padding-right: 100px;
 }
 
 footer {
