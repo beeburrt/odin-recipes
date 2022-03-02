@@ -1,58 +1,151 @@
 /* odin recipes stylesheet */
 
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset */
+
+
+
+
 body {
   background-color: #00004d;
   color: #ffb000;
+  box-sizing: border-box;
 }
 
 a:hover {
   color: #ffb000;
 }
 
+a {
+  margin: 10px;
+  color: maroon;
+}
+
 h1 {
   font-size: 55px;
-  color: #00004d
+  border: 2px solid black;
+  color: #00004d;
+  padding: 20px;
+  background-color: rgba(255, 176, 0, .25);
 }
 
 h2 { 
   font-size: 33px;
   color: #00004d;
+  padding: 15px;
+  background-color: rgba(255, 176, 0, .25);
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
 }
 
 h3 {
   font-size: 28px;
+  padding: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.h {
+  border-bottom: 2px solid #ffb000;
+}
+
+img {
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  margin-top: 20px;
 }
 
 header {
   text-align: center;
   background-image: url(../images/folk.png);
   background-size: contain;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 section {
   text-align: center;
+  line-height: 20px;
 }
 
 .home {
   text-align: center;
-  
+  text-decoration: underline;
 }
 
 .ingredients {
-  text-align: justify;
+  text-align: left;
   padding-left: 100px;
   padding-right: 100px;
+  margin-bottom: 20px;
 }
 
 .directions {
-  text-align: justify;
+  text-align: left;
   padding-left: 100px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   padding-right: 100px;
 }
 
 footer {
+  height: 66px;
+  line-height: 30px;
   text-align: center;
   background-image: url(../images/folk.png);
   color: #00004d;
+  padding: 10px;
+}
+
+.left {
+  text-align: left;
 }
