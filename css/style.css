@@ -53,12 +53,16 @@ table {
 /* end of reset */
 
 
-
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 body {
+  font-size: 17px;
   background-color: #00004d;
   color: #ffb000;
-  box-sizing: border-box;
 }
 
 a:hover {
@@ -72,6 +76,7 @@ a {
 
 h1 {
   font-size: 55px;
+  font-weight: bold;
   border: 2px solid black;
   color: #00004d;
   padding: 20px;
@@ -79,7 +84,7 @@ h1 {
 }
 
 h2 { 
-  font-size: 33px;
+  font-size: 30px;
   color: #00004d;
   padding: 15px;
   background-color: rgba(255, 176, 0, .25);
@@ -89,6 +94,7 @@ h2 {
 
 h3 {
   font-size: 28px;
+  font-weight: bold;
   padding: 15px;
   padding-bottom: 20px;
   margin-bottom: 10px;
@@ -100,7 +106,7 @@ h3 {
 
 img {
   border: 3px solid black;
-  border-radius: 20px;
+  border-radius: 20px;         /* rounds the corners of my pictures */
   margin: 10px;
   margin-top: 20px;
 }
@@ -127,14 +133,15 @@ section {
   text-align: left;
   padding-left: 100px;
   padding-right: 100px;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .directions {
   text-align: left;
   padding-left: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   padding-right: 100px;
+  margin: 20px 0;
 }
 
 footer {
@@ -143,9 +150,14 @@ footer {
   text-align: center;
   background-image: url(../images/folk.png);
   color: #00004d;
+  margin-top: 20px;
   padding: 10px;
 }
 
 .left {
+  color: maroon;
   text-align: left;
+  position: fixed;      /* this code keeps my copyright thing in a fixed */
+  bottom: 0;              /* position in the lower-left corner as the */
+  left: 0;                   /* page is scrolled up and down */
 }
