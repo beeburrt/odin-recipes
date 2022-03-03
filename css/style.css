@@ -59,6 +59,10 @@ table {
           box-sizing: border-box;
 }
 
+html {
+  font-family: 'Frijole', cursive;
+}
+
 body {
   font-size: 17px;
   background-color: #00004d;
@@ -70,6 +74,7 @@ a:hover {
 }
 
 a {
+  line-height: normal;
   margin: 10px;
   color: maroon;
 }
@@ -83,7 +88,7 @@ h1 {
   background-color: rgba(255, 176, 0, .25);
 }
 
-h2 { 
+h2 {
   font-size: 30px;
   color: #00004d;
   padding: 15px;
@@ -94,10 +99,10 @@ h2 {
 
 h3 {
   font-size: 28px;
-  font-weight: bold;
+  line-height: 99%;
   padding: 15px;
-  padding-bottom: 20px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
 }
 
 .h {
@@ -116,7 +121,7 @@ header {
   background-image: url(../images/folk.png);
   background-size: contain;
   padding-bottom: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 section {
@@ -145,16 +150,17 @@ section {
 }
 
 footer {
-  height: 66px;
-  line-height: 30px;
+  font-size: 1em;
+  line-height: 99%;
   text-align: center;
   background-image: url(../images/folk.png);
   color: #00004d;
   margin-top: 20px;
-  padding: 10px;
+  padding-top: 10px;
 }
 
 .left {
+  font-family: 'Frijole', cursive;
   color: maroon;
   text-align: left;
   position: fixed;      /* this code keeps my copyright thing in a fixed */
