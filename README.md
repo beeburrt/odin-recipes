@@ -1,6 +1,5 @@
 # Odin Recipes
-## The recipes assignment from [The Odin Project](https://theodinproject.com)
-
+### My first website!
 ---
-
-I've learned a good amount of Linux commands, some HTML, and a wee bit of CSS. 
+This is my recipes assignment for [The Odin Project](https://theodinproject.com)
+# :taco: :taco: :taco: :taco: 
